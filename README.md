@@ -1,9 +1,9 @@
 [![Powered By Vaadin on Kotlin](http://vaadinonkotlin.eu/iconography/vok_badge.svg)](http://vaadinonkotlin.eu)
 [![Build Status](https://github.com/mvysny/vok-helloworld-app/actions/workflows/gradle.yml/badge.svg)](https://github.com/mvysny/vok-helloworld-app/actions/workflows/gradle.yml)
 
-# Vaadin-on-Kotlin Vaadin 14 Example App / Archetype
+# Vaadin-on-Kotlin Vaadin 23 Example App / Archetype
 
-Template for a simple Vaadin-on-Kotlin Vaadin 14-based application that only
+Template for a simple Vaadin-on-Kotlin Vaadin 23-based application that only
 requires Java JDK to run. Just clone this repo and start building your awesome app!
 
 You'll start with this app when you follow the [Getting Started tutorial](https://www.vaadinonkotlin.eu/tutorial/).
