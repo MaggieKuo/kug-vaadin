@@ -7,3 +7,5 @@ vite.generated.ts
 target
 frontend/generated
 .npmrc
+*.log
+*.http

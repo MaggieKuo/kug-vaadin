@@ -21,6 +21,7 @@
     "@vaadin/component-base": "23.2.8",
     "@vaadin/confirm-dialog": "23.2.8",
     "@vaadin/context-menu": "23.2.8",
+    "@vaadin/crud": "23.2.8",
     "@vaadin/custom-field": "23.2.8",
     "@vaadin/date-picker": "23.2.8",
     "@vaadin/date-time-picker": "23.2.8",
@@ -68,6 +69,7 @@
     "@vaadin/vaadin-combo-box": "23.2.8",
     "@vaadin/vaadin-confirm-dialog": "23.2.8",
     "@vaadin/vaadin-context-menu": "23.2.8",
+    "@vaadin/vaadin-crud": "23.2.8",
     "@vaadin/vaadin-custom-field": "23.2.8",
     "@vaadin/vaadin-date-picker": "23.2.8",
     "@vaadin/vaadin-date-time-picker": "23.2.8",
@@ -144,6 +146,7 @@
       "@vaadin/component-base": "23.2.8",
       "@vaadin/confirm-dialog": "23.2.8",
       "@vaadin/context-menu": "23.2.8",
+      "@vaadin/crud": "23.2.8",
       "@vaadin/custom-field": "23.2.8",
       "@vaadin/date-picker": "23.2.8",
       "@vaadin/date-time-picker": "23.2.8",
@@ -190,6 +193,7 @@
       "@vaadin/vaadin-combo-box": "23.2.8",
       "@vaadin/vaadin-confirm-dialog": "23.2.8",
       "@vaadin/vaadin-context-menu": "23.2.8",
+      "@vaadin/vaadin-crud": "23.2.8",
       "@vaadin/vaadin-custom-field": "23.2.8",
       "@vaadin/vaadin-date-picker": "23.2.8",
       "@vaadin/vaadin-date-time-picker": "23.2.8",
@@ -245,7 +249,7 @@
       "workbox-core": "6.5.0",
       "workbox-precaching": "6.5.0"
     },
-    "hash": "c1b98192ddb1e41e91da63442c4f8d8bbcf363ea49231c0c6388eb9432806b0e"
+    "hash": "fdebeadc344663f2ccbb3f663b3f4f89db29df794a3dac4343b6f461200cdee0"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -350,6 +354,8 @@
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "lit": "$lit",
     "@polymer/polymer": "$@polymer/polymer",
-    "date-fns": "$date-fns"
+    "date-fns": "$date-fns",
+    "@vaadin/vaadin-crud": "$@vaadin/vaadin-crud",
+    "@vaadin/crud": "$@vaadin/crud"
   }
 }

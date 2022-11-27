@@ -85,6 +85,7 @@ class JavalinRestServlet : HttpServlet() {
 
 fun Javalin.configureRest(): Javalin {
     gsonMapper(VokRest.gson)
+    studentRest()
     return this
 }
 

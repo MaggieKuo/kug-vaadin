@@ -18,6 +18,8 @@ dependencies {
     implementation("eu.vaadinonkotlin:vok-framework-vokdb:${properties["vok_version"]}")
     implementation("com.vaadin:vaadin-core:${properties["vaadin_version"]}")
     implementation("com.github.mvysny.vaadin-boot:vaadin-boot:10.1")
+    implementation("com.vaadin:vaadin-bom:${properties["vaadin_version"]}")
+    implementation("com.vaadin:vaadin-crud-flow:${properties["vaadin_version"]}")
 
     implementation("com.zaxxer:HikariCP:5.0.1")
 
@@ -26,14 +28,17 @@ dependencies {
     implementation("org.slf4j:slf4j-simple:2.0.0")
 
     // db
-    implementation("org.flywaydb:flyway-core:9.5.1")
+    implementation("org.flywaydb:flyway-core:9.8.2")
     implementation("com.h2database:h2:2.1.214")
+    implementation("org.hibernate:hibernate-validator:6.2.3.Final")
+    implementation("com.github.javafaker:javafaker:1.0.2")
 
     // REST
     implementation("eu.vaadinonkotlin:vok-rest:${properties["vok_version"]}")
 
     // Kotlin
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("reflect"))
 }
 
 java {
